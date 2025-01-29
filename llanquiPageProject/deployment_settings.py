@@ -35,9 +35,7 @@ MIDDLEWARE = [
 
 # ====== CORS CONFIGURATION ======
 # Define los orígenes permitidos para CORS
-CORS_ALLOWED_ORIGINS = [
-    'https://' + os.environ.get('URL_F')
-]
+CORS_ALLOWED_ORIGINS = ['https://' + os.environ.get('RENDER_URL_FRONTEND')]
 
 # ====== DATABASE CONFIGURATION ======
 # Configura la base de datos utilizando dj_database_url
