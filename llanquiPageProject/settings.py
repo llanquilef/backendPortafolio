@@ -145,7 +145,6 @@ EMAIL_HOST_PASSWORD = os.environ.get("EMAIL_APP_PASSWORD")
 DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
 
 
-
 # Default primary key field type
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
